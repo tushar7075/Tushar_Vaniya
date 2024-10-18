@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Tushar_Vaniya/static/css/main.6fc6e14a.css",
+    "main.js": "/Tushar_Vaniya/static/js/main.c827defe.js",
+    "static/media/tushar_1.jpg": "/Tushar_Vaniya/static/media/tushar_1.481c1460bbe2a3929a86.jpg",
+    "static/media/Tushar_Vaniya.pdf": "/Tushar_Vaniya/static/media/Tushar_Vaniya.d7e7007869cd12e09bfa.pdf",
+    "static/media/tushar_logo_pic.jpg": "/Tushar_Vaniya/static/media/tushar_logo_pic.7f9eb4eec037405a79ef.jpg",
+    "static/media/blog.jpg": "/Tushar_Vaniya/static/media/blog.f2f0a3af070377f60d1c.jpg",
+    "static/media/News.jpg": "/Tushar_Vaniya/static/media/News.47bad8eff4ed972a66bd.jpg",
+    "static/media/Learn-Now.jpg": "/Tushar_Vaniya/static/media/Learn-Now.1c8a30c917964b98f45d.jpg",
+    "static/media/snake.jpg": "/Tushar_Vaniya/static/media/snake.71afcec6acd81bfabd25.jpg",
+    "static/media/tushar_logo_pic_sm.jpg": "/Tushar_Vaniya/static/media/tushar_logo_pic_sm.d8f4d36cf9a04f1885e2.jpg",
+    "index.html": "/Tushar_Vaniya/index.html",
+    "main.6fc6e14a.css.map": "/Tushar_Vaniya/static/css/main.6fc6e14a.css.map",
+    "main.c827defe.js.map": "/Tushar_Vaniya/static/js/main.c827defe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fc6e14a.css",
+    "static/js/main.c827defe.js"
+  ]
+}
