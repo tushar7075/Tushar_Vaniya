@@ -1,0 +1,83 @@
+.project__container{
+    margin-top: 2rem;
+    padding-inline: 3rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.project__item{
+    place-items: center;
+    margin: 1rem 4rem;
+    position: relative;
+    /* box-shadow: 0 0 1rem rgb(165, 129, 133); */
+    border-radius: 5%;
+    overflow: hidden;
+}
+.project__item:hover .project__item-layer{
+    height: 100%;
+}
+.project__item-image{
+    display: block;
+    height: 15rem;
+    object-fit: cover;
+}
+.project__item-layer{
+    display: grid;
+    grid-template-columns: 1;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0;
+    background-image : linear-gradient(rgba(116, 47, 55, 0),rgba(116, 47, 55, 0.1),rgba(116, 47, 55, 0.3),rgba(116, 47, 55, 0.4),rgba(116, 47, 55, 0.5),rgba(116, 47, 55, 0.6),rgba(116, 47, 55, 0.7),rgba(116, 47, 55, 0.75),rgba(116, 47, 55, 0.85),rgba(116, 47, 55, 0.9));
+    border-radius: 5%;
+    overflow: hidden;
+    transition: var(--transition);
+    color: white;
+}
+.project__item-layer > h3,p,a{
+    text-align: center;
+}
+.project__item-layer > h3{
+    padding-top: 3.5rem;
+    color: white;
+}
+.project__item-layer > p{
+    padding: 0rem 3rem;
+}
+.project__item-layer > a{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:1024px) {
+    .project__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 0rem 5rem;
+    }
+    .project__item{
+        margin: 0;
+    }
+    .project__item-image{
+        height: 24rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .project__container{
+        width: 90%;
+        padding: 0;
+    }
+    .project__item{
+        margin: 0;
+    }
+    .project__item-image{
+        height: 17rem;
+    }
+}
+
+
